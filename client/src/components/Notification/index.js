@@ -6,7 +6,7 @@ function TransitionUp(props) {
   return <Slide {...props} direction='up' />;
 }
 
-Notification = ({ message }) => {
+const Notification = ({ message }) => {
   const [open, setOpen] = useState(false);
   const [transition, setTransition] = useState(undefined);
 
