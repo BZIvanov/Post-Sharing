@@ -1,11 +1,11 @@
 import { BrowserRouter, Route } from 'react-router-dom';
 import { CssBaseline, Container } from '@material-ui/core';
-import Home from './pages/Home';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import Post from './pages/Post';
-import Navigation from './components/Navigation';
-import AuthRoute from './components/AuthRoute';
+import { Home } from './pages/Home';
+import { Register } from './pages/Register';
+import { Login } from './pages/Login';
+import { Post } from './pages/Post';
+import { Navigation } from './components/Navigation';
+import { AuthRoute } from './components/AuthRoute';
 
 const App = () => {
   return (
