@@ -18,7 +18,6 @@ mongoose
   .connect(process.env.DB_PATH, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
   })
   .then(() => {
     console.log('MongoDB Connected');
